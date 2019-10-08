@@ -14,5 +14,15 @@
         <section><span>A</span><span>♥</span><span>A</span></section>
         <section><span>A</span><span>♠</span><span>A</span></section>
     </main>
+    <script>
+    const idInput = document.getElementById('idInput');
+const colorInput = document.getElementById('colorInput');
+
+function setCard() {
+  const card = document.getElementById(idInput.value);
+  card.style.color = colorInput.value;
+  console.log(card) ;
+}
+    </script>
 </body>
 </html>
